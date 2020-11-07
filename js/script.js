@@ -86,7 +86,7 @@ var userFeed = new Instafeed({
     get: 'user',
     target: "instafeed-container",
     resolution: 'medium_resolution',
-    accessToken: 'IGQVJYTG5PLWZACLXFkcmpXblZAEMUFDWkNscjRKTGs2WGlTZAF9BX09QUVhGaXlEblRmUk9sUXZASNUw1NFVQQlRUQlNhWlN4VGVUYkpNTXdaWkd4aGlwYklabU0yUmYtLWkxaE1iczRsSEYtWUQxTU9zdwZDZD',
+    accessToken: '{Your_Access_Key}',
     template:'<div class="col-lg-3"><div class="news_item"><a href="{{link}}" target="_blank"><div class="image"><img src="{{image}}" alt=""><div class="fade_image"></div></div><div class="news_detail"><span class="time">{{timestamp}}</span><p class="content">{{caption}}</p></div><a/></div></div>',
     limit:5,
     filter: function(image) {
