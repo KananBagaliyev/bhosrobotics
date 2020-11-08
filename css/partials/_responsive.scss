@@ -27,20 +27,20 @@
   
 //   }
 
-@media only screen and (min-width: 1500px){
-}
+// @media only screen and (min-width: 1500px){
+// }
 
-@media only screen and (min-width: 991px) { 
-}
+// @media only screen and (min-width: 991px) { 
+// }
 
-@media only screen and (min-width: 768px) { 
-}
+// @media only screen and (min-width: 768px) { 
+// }
 
-@media only screen and (min-width:577px){ 
-}
+// @media only screen and (min-width:577px){ 
+// }
 
-@media only screen and (max-width: 1499px){
-}
+// @media only screen and (max-width: 1499px){
+// }
 
 @media only screen and (max-width: 991px){
   body{
@@ -64,13 +64,45 @@
       }
     }
   }
+
+  body{
+    footer{
+      #university{
+        .name{
+          justify-content: center;
+        }
+
+        .icons{
+          justify-content: center!important;
+        }
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 767px) { 
-}
+// @media only screen and (max-width: 767px) { 
+// }
 
 @media only screen and (max-width: 576px){ 
+  body{
+    #aboutus{
+      .content{
+        p{
+          font-size: 16px!important;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 487px){ 
+  body{
+    #aboutus{
+      .content{
+        p{
+          font-size: 12px!important;
+        }
+      }
+    }
+  }
 }

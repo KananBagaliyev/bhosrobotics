@@ -16,6 +16,28 @@
   body header #lower_nav nav .navigation_bar {
     display: none !important;
   }
+  body footer #university .name {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body footer #university .icons {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  body #aboutus .content p {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 487px) {
+  body #aboutus .content p {
+    font-size: 12px !important;
+  }
 }
 
 .padding {
@@ -24,6 +46,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.owl-theme .disabled {
+  display: block !important;
 }
 
 .btn {
@@ -619,7 +645,7 @@ body #news_events .event_slider .event_item .event_bottom p {
 }
 
 body #news_events .owl-theme .owl-nav {
-  display: block;
+  display: none !important;
   margin: 0 auto;
   position: absolute;
   width: 100%;
@@ -696,6 +722,7 @@ body footer #university .name h5 a {
 }
 
 body footer #university .icons {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -747,32 +774,23 @@ body footer #copyright {
   padding: 10px 0;
 }
 
-body footer #copyright h5 {
+body footer #copyright h6 {
   margin: 0 !important;
 }
 
-body footer #copyright h5 p {
+body footer #copyright h6 p {
   margin: 0 !important;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-body footer #copyright h5 p a {
+body footer #copyright h6 p a {
   color: white;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   margin: 0 !important;
 }
 
-body footer #copyright h5 p a:hover {
+body footer #copyright h6 p a:hover {
   color: #ff6305;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -805,6 +823,7 @@ body #aboutus .image img {
 
 body .about_line {
   position: relative;
+  margin-top: 50px;
   width: 100%;
   height: 5px;
   background-color: #ff6305;
