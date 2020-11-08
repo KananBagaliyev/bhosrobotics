@@ -1,3 +1,8 @@
 $main_color:#14396c;
 $secondary_color:#ff6305;
-$font:'Poppins', sans-serif;;
+$font:'Poppins', sans-serif;
+// Accordion Height
+$a-height: 250px;
+
+// Position text along bottom
+$text-offset: $a-height - 90;

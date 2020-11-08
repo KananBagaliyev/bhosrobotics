@@ -1,3 +1,32 @@
+// @media only screen and (max-width: 600px) {
+            
+//     // IE gets fussy if this isn't here
+//     body { margin:0; }
+    
+//     .accordion {
+      
+//       height:auto;
+      
+//       ul,ul:hover {
+        
+//         li,li:hover {
+          
+//           position:relative;
+//           display:table;
+//           table-layout:fixed;
+//           width:100%;
+          
+//           -webkit-transition:none;
+//           transition:none;
+          
+//         }
+        
+//       }
+      
+//     }
+  
+//   }
+
 @media only screen and (min-width: 1500px){
 }
 
@@ -14,92 +43,27 @@
 }
 
 @media only screen and (max-width: 991px){
-    body{
-        header{
-            #navbar{
-                display: none;
+  body{
+    header{
+      #lower_nav{
+        nav{
+          .col-2{
+            display: block;
+            .menu_btn{
+              display: block;
             }
-            #mobile_navbar{
-                display: flex!important;
-                justify-content: space-around;
-
-            }
+          }
+          .row{
+            justify-content: space-between;
+            align-items: center;
+          }
+          .navigation_bar{
+            display: none!important;
+          }
         }
+      }
     }
-
-    body{
-        #about{
-            .about_img_slider{
-                .item{
-                    img{
-                        width: 100% !important;
-                    }
-                }
-            }
-            .owl-theme {
-                .owl-nav.disabled + .owl-dots {
-                    margin-top: 0;
-                    position: absolute;
-                    right: 30px;
-                    top: 120px!important;
-                  }
-            }
-            .about_shape{
-                display: none!important;
-            }
-        }
-    }
-
-    body{
-        #vision{
-            .vision_wrapper{
-                padding: 30px 50px 40px 30px!important;
-            }
-        }
-    }
-
-    body{
-        #partner{
-            .partner_wrapper{
-                .partner_content{
-                    .section_title{
-                        text-align: center!important;
-                    }
-                }
-                .btn_div{
-                    width: 100%!important;
-                    justify-content: center;
-                }
-            }
-        }
-    }
-
-    body{
-        #whyWe{
-            .image_area{
-                img{
-                    display: block!important;
-                }
-            }
-            .whyWe_content{
-                padding: 30px 0 40px 0!important;
-                max-width: 100%;
-                text-align: center;
-                .section_title{
-                    text-align: center!important;
-                }
-
-                ul{
-                    display: flex;
-                    justify-content: center;
-                    li{
-                        max-width: 100%!important;
-                        max-width: 230px!important;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: 767px) { 
