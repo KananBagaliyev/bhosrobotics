@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    AOS.init();
     $('.project_slider').owlCarousel({
         items: 1,
         loop: true,
@@ -186,6 +187,12 @@ $(document).ready(function(){
         $('.mobile_navigation_bar').slideToggle();
         $(this).toggleClass('animate')
     })
+
+    setTimeout(() => {
+        $('#greeting .title .row').slideDown()
+    },1000);;
+
+    // $('section').smoove({opacity:'0'});
 
 })
 

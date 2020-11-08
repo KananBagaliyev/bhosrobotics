@@ -1,32 +1,3 @@
-// @media only screen and (max-width: 600px) {
-            
-//     // IE gets fussy if this isn't here
-//     body { margin:0; }
-    
-//     .accordion {
-      
-//       height:auto;
-      
-//       ul,ul:hover {
-        
-//         li,li:hover {
-          
-//           position:relative;
-//           display:table;
-//           table-layout:fixed;
-//           width:100%;
-          
-//           -webkit-transition:none;
-//           transition:none;
-          
-//         }
-        
-//       }
-      
-//     }
-  
-//   }
-
 // @media only screen and (min-width: 1500px){
 // }
 
@@ -80,8 +51,29 @@
   }
 }
 
-// @media only screen and (max-width: 767px) { 
-// }
+@media only screen and (max-width: 767px) { 
+  .accordion {
+      
+    height:auto;
+    
+    ul,ul:hover {
+      
+      li,li:hover {
+        
+        position:relative;
+        display:table;
+        table-layout:fixed;
+        width:100%;
+        
+        -webkit-transition:none;
+        transition:none;
+        
+      }
+      
+    }
+    
+  }
+}
 
 @media only screen and (max-width: 576px){ 
   body{
@@ -90,6 +82,14 @@
         p{
           font-size: 16px!important;
         }
+      }
+    }
+  }
+
+  body{
+    #contact{
+      .contact_content{
+        padding:15px!important
       }
     }
   }

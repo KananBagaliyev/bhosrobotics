@@ -34,6 +34,9 @@ a:hover{
 
 body{
     header{
+        position: sticky;
+        z-index: 1555500050550505050;
+        top: 0;
         #upper_nav{
             background-color:$main_color;
             padding: 10px;
@@ -179,12 +182,17 @@ body{
         background-attachment: fixed;
 
             .title{
+                display: flex;
                 height: 55vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 position: relative;
                 color: white;
+
+                .row{
+                    display: none;
+                }
             }
     }
 
@@ -661,6 +669,7 @@ body{
                 p{
                     margin: 0!important;
                     color: white;
+                    text-align: center!important;
                     a{
                         color: white;
                         transition: 0.5s ease;
