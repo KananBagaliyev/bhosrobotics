@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-    AOS.init();
     $('.project_slider').owlCarousel({
         items: 1,
         loop: true,
@@ -179,7 +178,7 @@ $(document).ready(function(){
     
     $('#accordion_about .header').click(function(){
         console.log($(this).find('.expand'))
-        $(this).parent().find('.content').slideToggle();
+        $(this).parent().find('.content').stop(true,true).slideToggle();
         $(this).find('.expand').toggleClass('shrink')
     })
     
@@ -192,7 +191,8 @@ $(document).ready(function(){
         $('#greeting .title .row').slideDown()
     },1000);;
 
-    // $('section').smoove({opacity:'0'});
+    
+    AOS.init();
 
 })
 

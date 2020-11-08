@@ -528,7 +528,10 @@ body{
                 padding: 0px 10px;
             }
             .event_item{
+                height: 198px!important;
                 background-color: $secondary_color;
+                width: 100%;
+                position: relative;
                 .event_title{
                     padding:20px;
                     p{
@@ -544,8 +547,11 @@ body{
                 }
 
                 .event_bottom{
+                    position: absolute;
                     padding: 20px;
                     background-color: #c75107;
+                    bottom:0;
+                    width: 100%;
 
                     p{
                         display: inline-block;

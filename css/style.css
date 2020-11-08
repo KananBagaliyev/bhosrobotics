@@ -644,7 +644,10 @@ body #news_events .event_slider .owl-item {
 }
 
 body #news_events .event_slider .event_item {
+  height: 198px !important;
   background-color: #ff6305;
+  width: 100%;
+  position: relative;
 }
 
 body #news_events .event_slider .event_item .event_title {
@@ -664,8 +667,11 @@ body #news_events .event_slider .event_item .event_title h2 {
 }
 
 body #news_events .event_slider .event_item .event_bottom {
+  position: absolute;
   padding: 20px;
   background-color: #c75107;
+  bottom: 0;
+  width: 100%;
 }
 
 body #news_events .event_slider .event_item .event_bottom p {
