@@ -333,29 +333,29 @@ body #project .project_slider .project_item .project_bottom {
   position: absolute;
   bottom: 20px;
   left: 20px;
+  right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  overflow: hidden;
 }
 
 body #project .project_slider .project_item .project_bottom .background_opacity {
   width: 100%;
-  height: 90%;
+  height: 80px;
   position: absolute;
   background-color: black;
   opacity: 0.6;
 }
 
 body #project .project_slider .project_item .project_bottom h3 {
-  margin-bottom: 0px important;
-  position: absolute;
-  top: 50%;
-  margin-top: 5px;
-  padding: 0px 10px;
-  height: 100%;
   position: relative;
   color: white;
 }
